@@ -1,4 +1,4 @@
-# Install Dependencies:
+## Install Dependencies:
 
 pip install google-generativeai qdrant-client pydantic numpy python-dateutil
 
@@ -6,10 +6,10 @@ The system combines:
 
 -Natural language understanding (Gemini)
 -Vector similarity search (Qdrant)
--Traditional filtering (date ranges, categories)
+- Filtering (date ranges, categories)
 -Structured data handling (Pydantic)
 
-# Core Components
+## Core Components
 1. Vector Database (Qdrant) :
    - Stores expense records with embeddings
    - Enables efficient similarity searches
@@ -24,7 +24,7 @@ The system combines:
    - Expense: Data structure for expense records
    - ExpenseQuery: Validated query parameters
 
-# Error Handling
+## Error Handling
 The system includes comprehensive error handling for:
 
 1.Invalid queries
